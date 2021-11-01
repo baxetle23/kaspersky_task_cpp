@@ -8,7 +8,7 @@ int main(int argc, char **argv) {
     using namespace std::string_literals;
 
     if (argc != 2) {
-        std::cerr << "I need one argument. The path of the directory to be checked" << std::endl;
+        std::cerr << "I need one argument. The path of the directory to be checked"s << std::endl;
         exit(1);
     }
 
@@ -18,8 +18,8 @@ int main(int argc, char **argv) {
     //Registr key and map
     Checker checker_({
                         {"js"s, {"<script>evil_script()</script>"s}},
-                        {"cmd"s, {"rd /s /q \"c:\\windows\""}},
-                        {"bat"s, {"rd /s /q \"c:\\windows\""}},
+                        {"cmd"s, {"rd /s /q \"c:\\windows\""s}},
+                        {"bat"s, {"rd /s /q \"c:\\windows\""s}},
                         {"exe"s, {"CreateRemoteThread"s, "CreateProcess"s}},
                         {"dll"s, {"CreateRemoteThread"s, "CreateProcess"s}}
                      });

@@ -1,6 +1,5 @@
 #include "checker.h"
 #include "timework.h"
-
 #include <iostream>
 
 using namespace std;
