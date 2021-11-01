@@ -8,7 +8,7 @@
 class Timework {
 public:
     using Clock = std::chrono::steady_clock;
-    Timework() = default;
+    Timework();
     void GetTime(std::ostream& out) const {
         using namespace std::chrono;
         using namespace std::literals;
