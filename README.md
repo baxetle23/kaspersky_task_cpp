@@ -19,10 +19,15 @@
 ====== Scan result ======
 
 Processed files: 150
+
 JS detects: 5
+
 CMD detects: 1
+
 EXE detects: 2
+
 Errors: 1
+
 Execution time: 00:00:31 
 
 =========================
